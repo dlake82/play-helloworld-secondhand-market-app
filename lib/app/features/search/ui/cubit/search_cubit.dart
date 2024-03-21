@@ -1,6 +1,6 @@
-import 'package:secondmarket/app/features/search/domain/search_usecase.dart';
-import 'package:secondmarket/core/utils/enums.dart';
-import 'package:secondmarket/core/utils/typedefs.dart';
+import 'package:secondhand_market/app/features/search/domain/search_usecase.dart';
+import 'package:secondhand_market/core/utils/enums.dart';
+import 'package:secondhand_market/core/utils/typedefs.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,6 +1,6 @@
-import 'package:secondmarket/app/features/search/ui/cubit/search_cubit.dart';
-import 'package:secondmarket/app/features/search/ui/views/widget/posts_result_view.dart';
-import 'package:secondmarket/core/di.dart';
+import 'package:secondhand_market/app/features/search/ui/cubit/search_cubit.dart';
+import 'package:secondhand_market/app/features/search/ui/views/widget/posts_result_view.dart';
+import 'package:secondhand_market/core/di.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

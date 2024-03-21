@@ -1,8 +1,8 @@
-import 'package:secondmarket/app/features/posts/data/data_sources/local/posts_local_data_source.dart';
-import 'package:secondmarket/app/features/posts/data/data_sources/remote/posts_remote_data_source.dart';
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/core/data/result.dart';
+import 'package:secondhand_market/app/features/posts/data/data_sources/local/posts_local_data_source.dart';
+import 'package:secondhand_market/app/features/posts/data/data_sources/remote/posts_remote_data_source.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/core/data/result.dart';
 
 class PostsRepository {
   const PostsRepository({

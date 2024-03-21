@@ -1,6 +1,6 @@
-import 'package:secondmarket/app/features/posts/data/repository/posts_repository.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/core/data/result.dart';
+import 'package:secondhand_market/app/features/posts/data/repository/posts_repository.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/core/data/result.dart';
 
 class SearchPostsRepository {
   SearchPostsRepository({required PostsRepository postsRepository})

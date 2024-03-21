@@ -1,7 +1,7 @@
-import 'package:secondmarket/app/features/posts/data/data_sources/local/dao/posts_dao.dart';
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/core/data/model/error/exception.dart';
+import 'package:secondhand_market/app/features/posts/data/data_sources/local/dao/posts_dao.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/core/data/model/error/exception.dart';
 import 'package:hive_flutter/adapters.dart';
 
 class HivePostsDao implements PostsDao {

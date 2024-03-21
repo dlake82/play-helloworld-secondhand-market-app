@@ -1,4 +1,4 @@
-import 'package:secondmarket/app/shared/ui/extensions/sized_context.dart';
+import 'package:secondhand_market/app/shared/ui/extensions/sized_context.dart';
 import 'package:flutter/material.dart'
     show BuildContext, SizedBox, StatelessWidget, Widget;
 

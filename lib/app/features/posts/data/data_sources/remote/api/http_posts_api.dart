@@ -1,10 +1,10 @@
 import 'dart:io';
 
-import 'package:secondmarket/app/features/posts/data/data_sources/remote/api/posts_api.dart';
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/core/data/data_source/remote/api_configs.dart';
-import 'package:secondmarket/core/utils/extensions.dart';
+import 'package:secondhand_market/app/features/posts/data/data_sources/remote/api/posts_api.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/core/data/data_source/remote/api_configs.dart';
+import 'package:secondhand_market/core/utils/extensions.dart';
 import 'package:http/http.dart' as http;
 
 class HttpPostsApi implements PostsApi {

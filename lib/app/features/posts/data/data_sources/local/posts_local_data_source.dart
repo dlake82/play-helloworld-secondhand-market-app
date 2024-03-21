@@ -1,6 +1,6 @@
-import 'package:secondmarket/app/features/posts/data/data_sources/local/dao/posts_dao.dart';
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/app/features/posts/data/data_sources/local/dao/posts_dao.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
 
 class PostsLocalDataSource {
   PostsLocalDataSource({required PostsDao postsDao}) : _postsDao = postsDao;

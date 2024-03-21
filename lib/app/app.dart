@@ -1,16 +1,16 @@
-import 'package:secondmarket/app/features/posts/ui/views/screen/home_screen.dart';
-import 'package:secondmarket/core/di.dart';
-import 'package:secondmarket/core/router/navigation_service.dart';
+import 'package:secondhand_market/app/features/posts/ui/views/screen/home_screen.dart';
+import 'package:secondhand_market/core/di.dart';
+import 'package:secondhand_market/core/router/navigation_service.dart';
 import 'package:flutter/material.dart';
 
-class BlogApp extends StatelessWidget {
-  const BlogApp({super.key});
+class App extends StatelessWidget {
+  const App({super.key});
 
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Secondhand Market',
       theme: ThemeData(
         // This is the theme of your application.
         //

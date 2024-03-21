@@ -1,9 +1,9 @@
 // ignore_for_file: depend_on_referenced_packages
 
-import 'package:secondmarket/app/app.dart';
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/core/di.dart';
+import 'package:secondhand_market/app/app.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/core/di.dart';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path/path.dart';
@@ -25,5 +25,5 @@ Future<void> main() async {
 
   await setup();
 
-  runApp(const BlogApp());
+  runApp(const App());
 }

@@ -1,9 +1,9 @@
-import 'package:secondmarket/app/features/posts/ui/views/screen/post_view_screen.dart';
-import 'package:secondmarket/app/features/posts/ui/views/widgets/post_card.dart';
-import 'package:secondmarket/app/features/search/ui/cubit/search_cubit.dart';
-import 'package:secondmarket/core/di.dart';
-import 'package:secondmarket/core/router/navigation_service.dart';
-import 'package:secondmarket/core/utils/enums.dart';
+import 'package:secondhand_market/app/features/posts/ui/views/screen/post_view_screen.dart';
+import 'package:secondhand_market/app/features/posts/ui/views/widgets/post_card.dart';
+import 'package:secondhand_market/app/features/search/ui/cubit/search_cubit.dart';
+import 'package:secondhand_market/core/di.dart';
+import 'package:secondhand_market/core/router/navigation_service.dart';
+import 'package:secondhand_market/core/utils/enums.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,4 +1,4 @@
-import 'package:secondmarket/app/features/posts/ui/views/screen/home_screen.dart';
+import 'package:secondhand_market/app/features/posts/ui/views/screen/home_screen.dart';
 import 'package:flutter/material.dart';
 
 class BottomNavigation extends StatefulWidget {

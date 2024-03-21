@@ -1,7 +1,7 @@
-import 'package:secondmarket/app/shared/data/models/authors_response.dart';
-import 'package:secondmarket/app/shared/data/models/posts_response.dart';
-import 'package:secondmarket/app/shared/ui/extensions/sized_context.dart';
-import 'package:secondmarket/app/shared/ui/widgets/spacing.dart';
+import 'package:secondhand_market/app/shared/data/models/authors_response.dart';
+import 'package:secondhand_market/app/shared/data/models/posts_response.dart';
+import 'package:secondhand_market/app/shared/ui/extensions/sized_context.dart';
+import 'package:secondhand_market/app/shared/ui/widgets/spacing.dart';
 import 'package:flutter/material.dart';
 
 class PostCard extends StatelessWidget {

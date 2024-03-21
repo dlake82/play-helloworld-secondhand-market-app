@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:secondmarket/core/data/model/error/exception.dart';
+import 'package:secondhand_market/core/data/model/error/exception.dart';
 import 'package:http/http.dart' as http;
 
 extension StringX on String {

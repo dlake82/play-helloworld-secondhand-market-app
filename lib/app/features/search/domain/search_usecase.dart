@@ -1,7 +1,7 @@
-import 'package:secondmarket/app/features/posts/data/repository/posts_repository.dart';
-import 'package:secondmarket/app/features/search/data/repository/search_repository.dart';
-import 'package:secondmarket/core/data/result.dart';
-import 'package:secondmarket/core/utils/typedefs.dart';
+import 'package:secondhand_market/app/features/posts/data/repository/posts_repository.dart';
+import 'package:secondhand_market/app/features/search/data/repository/search_repository.dart';
+import 'package:secondhand_market/core/data/result.dart';
+import 'package:secondhand_market/core/utils/typedefs.dart';
 
 class SearchPostsWithAuthorsUseCase {
   const SearchPostsWithAuthorsUseCase({
