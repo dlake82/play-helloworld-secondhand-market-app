@@ -1,44 +1,56 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
+# Created by https://www.toptal.com/developers/gitignore/api/nextjs,react
+# Edit at https://www.toptal.com/developers/gitignore?templates=nextjs,react
+
+### NextJS ###
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
+*.pem
 
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# local env files
+.env*.local
 
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.packages
-.pub-cache/
-.pub/
-/build/
+# vercel
+.vercel
 
-# Symbolication related
-app.*.symbols
+# typescript
+*.tsbuildinfo
+next-env.d.ts
 
-# Obfuscation related
-app.*.map.json
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+# End of https://www.toptal.com/developers/gitignore/api/nextjs,react

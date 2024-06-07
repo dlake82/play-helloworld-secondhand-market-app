@@ -1,31 +1,34 @@
-# Welcome to Decosk!
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/create-next-app).
 
-책상 위의 작은 세상. Decosk.
+## Getting Started
 
-Decosk는 Deco + Desk의 합성어로, Deco(꾸미다)와 Desk(책상)의 합성어입니다.
-우리의 일상을 둘러보면 책상 앞에 있는 시간이 꽤 많습니다. 그 시간을 더욱 즐겁게 만들어주는 것이 Decosk입니다.
-집에서, 작업 공간에서, 학교에서, 그리고 어디에서든 Decosk와 함께 여러분의 세상을 만들어 보세요.
+First, run the development server:
 
-# Wireframe
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-- 미로로 작성됨
-- Feature-Driven 기반으로 설계
-- 각 프레임과 설명, 그리고 서비스 플로우 차트로 구성됨
-- https://miro.com/app/board/uXjVKco0iCI=/?share_link_id=247911919290 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-# Functional Specification
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-- User
-- Catalog
-- Order
-- Return
-- Event
-- Recommend
-- Filter
-- Category
-- Advertisement
-- Coupon
+## Learn More
 
-# License
+To learn more about Next.js, take a look at the following resources:
 
-Apache-2.0 license.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
