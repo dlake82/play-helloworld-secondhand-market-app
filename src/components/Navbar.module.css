@@ -1,0 +1,45 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 24px 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  flex: 1;
+}
+
+.navbar-title {
+  flex: 2;
+  text-align: center;
+}
+
+.navbar-menu {
+  flex: 1;
+  text-align: right;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.back-button,
+.navbar-nav a {
+  font-size: 1.5rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.back-button:hover,
+.navbar-nav a:hover {
+  color: #666;
+}

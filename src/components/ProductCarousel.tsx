@@ -1,33 +1,26 @@
-// components/ProductCarousel.tsx
+// components/Carousel.tsx
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // 스타일 임포트
-
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 interface ProductCarouselProps {
-  images: string[];
-  videos: string[];
+  products: Product[];
 }
 
 const ProductCarousel: React.FC<ProductCarouselProps> = ({
-  images,
-  videos,
-}) => {
+  products,
+}: ProductCarouselProps) => {
   return (
-    <Carousel showThumbs={false} infiniteLoop={true} autoPlay={true}>
-      {images.map((src, index) => (
-        <div key={index}>
-          <img src={src} alt={`product image ${index + 1}`} />
-        </div>
-      ))}
-      {videos.map((src, index) => (
-        <div key={index}>
-          <video controls>
-            <source src={src} type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      ))}
-    </Carousel>
+    <div className="carousel-container">
+      {products && (
+        <Carousel>
+          {products.map((product, index) => (
+            <div key={index}>
+              <img src={product.productImage} alt={product.productName} />
+            </div>
+          ))}
+        </Carousel>
+      )}
+    </div>
   );
 };
 
